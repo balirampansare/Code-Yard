@@ -12,3 +12,7 @@ ___
 
     2.2. you will be given one target word check out how many time the word has been occured in the string.      
     [Check out CODE with more descriptive question](https://github.com/balirampansare/Code-Yard/blob/main/Codes/2%20unique%20char%20count.py)
+
+3. Three methods to swap two variables
+
+    [CODE](https://github.com/balirampansare/Code-Yard/blob/main/Codes/3%20swap2variables.py)
