@@ -16,3 +16,7 @@ ___
 3. Three methods to swap two variables
 
     [CODE](https://github.com/balirampansare/Code-Yard/blob/main/Codes/3%20swap2variables.py)
+
+4. First, ask the user how many numbers he/she wants to enter. Once we have the number, find the min,max,avg,sum of those numbers
+
+    [CODE](https://github.com/balirampansare/Code-Yard/blob/main/Codes/4%20min%2Cmax%2Cavg%2Csum.py)
