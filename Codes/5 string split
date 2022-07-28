@@ -1,0 +1,29 @@
+'''Different split ways on a string'''
+'''NOTE: CHECK OUT THE OUTPUT SPLIT PARAMETER OF THE FIRST/LAST WORD OF THE STRING'''
+
+str1 = 'HelloWorld!'
+str2 = 'Hello, World!'
+
+print('----------Split:----------')
+print('Before split:',str1)
+print('\nAfter split: ',str1.split())
+
+print('\n----------:----------')
+print('Before split:',str2)
+print('\nAfter split: ',str2.split())
+
+print('\n----------:----------')
+print('Before split:',str2)
+print('\nAfter split: ',str2.split(','))
+
+print('\n----------:----------')
+print('Before split:',str2)
+print('\nAfter split: ',str2.split('W'))
+
+print('\n----------IMP:----------')
+print('Before split:',str2)
+print('\nAfter split: ',str2.split('H'))
+
+print('\n----------IMP:----------')
+print('Before split:',str2)
+print('\nAfter split: ',str2.split('!'))

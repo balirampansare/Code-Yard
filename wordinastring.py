@@ -12,5 +12,11 @@ if 'ram' in b:
 else:
     print(False)
 '''
-x=3
-print(not(x<5 and x<10))
+
+
+
+
+double = lambda x: x+2
+print(double(3))
+
+print(type(double))
