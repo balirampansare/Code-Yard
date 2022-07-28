@@ -1,5 +1,5 @@
 '''Different split ways on a string'''
-'''NOTE: CHECK OUT THE OUTPUT SPLIT PARAMETER OF THE FIRST/LAST WORD OF THE STRING'''
+'''NOTE: CHECK OUT THE OUTPUT SPLIT PARAMETER OF THE FIRST/LAST WORD OF THE STRING  & ALSO CHECK DIGIT STRING TO INTO INTEGER'''
 
 str1 = 'HelloWorld!'
 str2 = 'Hello, World!'
@@ -27,3 +27,32 @@ print('\nAfter split: ',str2.split('H'))
 print('\n----------IMP:----------')
 print('Before split:',str2)
 print('\nAfter split: ',str2.split('!'))
+
+
+
+print("-------------------------------------------")
+print('\nsplit the given string of digits (\'1 2 3 4 5 6\') into list where each digit must have a type as int\n')
+
+given = '1 2 3 4 5 6'
+print('given: ',given)
+
+list1 = given.split()
+
+listofint = map(int,list1)
+output = list(listofint)
+print('output',output)
+
+
+
+print("\n----------WHAT IF STRING IS 123456---------\n")
+
+given = '123456'
+print('given',given)
+emptlist=[]
+
+for i in given:
+    emptlist.append(i)
+
+listofint = map(int,emptlist)
+output = list(listofint)
+print('output',output)
