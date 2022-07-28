@@ -21,4 +21,5 @@ ___
 
     [CODE](https://github.com/balirampansare/Code-Yard/blob/main/Codes/4%20min%2Cmax%2Cavg%2Csum.py)
 
-5. Different ways of split on String
+5. Different ways of split on String -->
+    [CODE](https://github.com/balirampansare/Code-Yard/blob/main/Codes/5%20string%20split)
